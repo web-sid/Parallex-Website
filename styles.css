@@ -101,11 +101,27 @@ h2{
 
     @media screen and (max-width: 600px) {
         .body3 .bg-text {
-            font-size: 15px;
+            font-size: 25px;
+        } 
+    }
+
+    @media screen and (max-width: 385px) {
+        .body3 .bg-text {
+            font-size: 8px;
+        } 
+        h2{
+            font-size: 30px;
+        }
+        .bg-text{
+            font-size: 20px;
+
+        }
+        .body2 .bg-text{
+            font-size: 20px;
 
         }
 
-        
+
     }
     
     
