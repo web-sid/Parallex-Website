@@ -99,9 +99,10 @@ h2{
 
     }
 
-    @media screen and (max-width: 545px) {
-        .bg-text {
-            font-size: 20px;
+    @media screen and (max-width: 600px) {
+        .body3 .bg-text {
+            font-size: 15px;
+
         }
 
         
