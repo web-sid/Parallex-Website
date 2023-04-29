@@ -1,0 +1,110 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+
+html, body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    line-height: 2rem;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.body1{
+        background-image: url(images/bg-1.png);
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .bg-text{
+        background-color: rgb(65, 63, 63);
+        color: white;
+        letter-spacing: 8px;
+        padding: 20px;
+        font-size: 27px;
+        text-transform: uppercase;
+
+    }
+
+    .body2 .bg-text{
+        background-color: transparent;
+        font-size: 30px;
+        letter-spacing: 8px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+    }
+
+    .body-light{
+        text-align: center;
+        padding: 45px 80px;
+        background-color: rgb(177, 173, 173);
+    }
+
+    .body-dark{
+        text-align: center;
+        padding: 45px 80px;
+        background-color: rgb(59, 58, 58);
+        color: rgb(237, 233, 233);
+
+
+    }
+
+    .body2{
+         background-image: url(images/bg-2.png);
+        min-height: 400px;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+
+        }
+
+    .body3{
+        background-image: url(images/bg-3.png);
+        min-height: 400px;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+
+    }
+
+    .body3 .bg-text{
+        background-color: rgb(49, 48, 48);
+        font-size: 30px;
+        letter-spacing: 8px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+    }
+
+    @media screen and (max-width: 545px) {
+        .bg-text {
+            font-size: 20px;
+        }
+
+        
+    }
+    
+    
