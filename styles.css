@@ -99,18 +99,18 @@ h2{
 
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 500px) {
         .body3 .bg-text {
-            font-size: 25px;
+            font-size: 20px;
         } 
     }
 
-    @media screen and (max-width: 385px) {
+    @media screen and (max-width: 440px) {
         .body3 .bg-text {
-            font-size: 8px;
+            font-size: 15px;
         } 
         h2{
-            font-size: 30px;
+            font-size: 25px;
         }
         .bg-text{
             font-size: 20px;
@@ -120,8 +120,31 @@ h2{
             font-size: 20px;
 
         }
+    }
 
+    @media screen and (max-width: 380px) {
+        .body3 .bg-text {
+            font-size: 10px;
+        } 
 
+    }
+
+    @media screen and (max-width: 330px) {
+        .body3 .bg-text {
+            font-size: 10px;
+
+        } 
+        h2{
+            font-size: 20px;
+        }
+        .bg-text{
+            font-size: 15px;
+
+        }
+        .body2 .bg-text{
+            font-size: 15px;
+
+        }
     }
     
     
